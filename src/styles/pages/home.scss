@@ -1,0 +1,13 @@
+.home-container {
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgb(161, 157, 157);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+  }
+}

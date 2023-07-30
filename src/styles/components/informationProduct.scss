@@ -1,0 +1,36 @@
+.informationProduct-container {
+  width: 445px;
+  height: min-content;
+  margin-left: auto;
+  border: 1px solid rgb(155, 147, 147, 0.2);
+  padding: 10px;
+
+  .informationProductHeader {
+    position: relative;
+    height: 40px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  img {
+    transform: rotate(-90deg);
+    width: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.4s ease-in-out;
+  }
+
+  .rotate {
+    transform: rotate(90deg);
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+}

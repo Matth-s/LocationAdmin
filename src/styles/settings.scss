@@ -1,0 +1,107 @@
+$color-orange: #d87d4a;
+$color-red: #cd2c2c;
+$color-grey: #f1f1f1;
+$color-black-grey: #191919;
+
+.flex {
+  display: flex;
+
+  &__spaceBtw {
+    justify-content: space-between;
+  }
+
+  &__spaceAround {
+    justify-content: space-around;
+  }
+
+  &__alignCenter {
+    align-items: center;
+  }
+
+  &__justifyCenter {
+    justify-content: center;
+  }
+
+  &__column {
+    flex-direction: column;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.isLoading {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+
+  button {
+    margin: 10px auto 0;
+    padding: 10px;
+    height: 40px;
+  }
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea,
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+}
+
+// field
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  height: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 90%;
+  height: 40px;
+  margin: 10px auto 0;
+}
+
+textarea {
+  height: 100px;
+}
